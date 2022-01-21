@@ -19,8 +19,8 @@ jobs:
       - name: Docker Build and Push
         uses: docker/build-push-action@v2.7.0
         with:
-          context: /src
-          file: ./src/Dockerfile
+          context: rotten-potatoes/src
+          file: rotten-potatoes/src/Dockerfile
           push: true
           tags: | 
             joaobuzato/rotten-potatoes:latest
